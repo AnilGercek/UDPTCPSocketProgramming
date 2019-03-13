@@ -12,7 +12,7 @@ As seen in the topology above:
 
 S-B connection is **TCP**, the rest of the connections are **UDP**. Broker node divides message to the parts and send over both r1 and r2. Destination node merge these parts. 
 
-This program tested in [GENI](https://www.geni.net/) as using 5 device remotely. 
+This program tested in [GENI](https://www.geni.net/) as using 5 device\node remotely via ssh. 
 
 # To run the program
 1. In the broker node/device:
