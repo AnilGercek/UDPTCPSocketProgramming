@@ -15,18 +15,28 @@ S-B connection is **TCP**, the rest of the connections are **UDP**. Broker node 
 This program tested in [GENI](https://www.geni.net/) as using 5 device remotely. 
 
 # To run the program
-1. In the broker node/device: 
+1. In the broker node/device:
+```shell
         $ g++ broker.cpp -o broker -std=c++11
         $ ./broker
+```
 2. In the router 1 node/device: 
+```shell
         $ g++ router1.cpp -o router1 -std=c++11
         $ ./router1
+```
 3. In the router 2 node/device: 
+```shell
         $ g++ router2.cpp -o router2 -std=c++11
         $ ./router2
+```
 4. In the destination node/device:
+```shell        
         $ g++ destination.cpp -o destination -std=c++11
         $ ./destination
+```
 5. In the source node/device: 
+```shell    
         $ g++ source.cpp -o source -std=c++11
         $ ./source <message>  
+```
